@@ -1,25 +1,25 @@
 # Pre-release channel, maintained by hand (GoReleaser skips the tap for
 # pre-releases). Install: brew install stevegeek/tap/lever@beta
 cask "lever@beta" do
-  version "1.0.0-beta.1"
+  version "1.0.0-beta.4"
 
   on_macos do
     on_arm do
-      sha256 "47111f0720f7dfcb53f562df11773a4aa18b5db88a2cbb2ffa42c7ada9f013c3"
+      sha256 "19a785750d7ee61f8c42969552ae634ed7c1d2dd6280d0e72613ec7649625bac"
       url "https://github.com/stevegeek/lever/releases/download/v#{version}/lever_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b70dcc40a4298811774e99db09a93e9fe536ad27f03efde836a55d2aa4acf832"
+      sha256 "6581f34c5baa017bd09431098826d4f3c442874d3775127a5aac34c0de897cb1"
       url "https://github.com/stevegeek/lever/releases/download/v#{version}/lever_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "7a295724831b53320dd380d95f15a921ee0f8878d4323c864c857d37bd56feb9"
+      sha256 "904da9ca8a820f17bf810babb849bdf0a0d5d40b9013747138d77ef55d6569aa"
       url "https://github.com/stevegeek/lever/releases/download/v#{version}/lever_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "a627946a519361842572ac8e2c2bcc6a8da007f6674c4ba6bd9db4b0fce79ca0"
+      sha256 "32a056654af2b31b84c51dde670ba249b3e05c32997fb79789ae9262d3b82419"
       url "https://github.com/stevegeek/lever/releases/download/v#{version}/lever_#{version}_linux_amd64.tar.gz"
     end
   end
