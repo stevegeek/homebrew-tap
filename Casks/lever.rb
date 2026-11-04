@@ -25,7 +25,7 @@ cask "lever" do
 
   name "lever"
   desc "Jailed multi-agent orchestration for Claude Code"
-  homepage "https://lever.to"
+  homepage "https://lever.diaconou.com"
 
   livecheck do
     skip "Auto-generated on release."

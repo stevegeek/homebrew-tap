@@ -1,6 +1,6 @@
 # stevegeek/homebrew-tap
 
-Homebrew tap for [lever](https://lever.to): jailed multi-agent orchestration for Claude Code.
+Homebrew tap for [lever](https://lever.diaconou.com): jailed multi-agent orchestration for Claude Code.
 
 ```sh
 brew install stevegeek/tap/lever

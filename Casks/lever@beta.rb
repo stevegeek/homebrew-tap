@@ -26,7 +26,7 @@ cask "lever@beta" do
 
   name "lever"
   desc "Jailed multi-agent orchestration for Claude Code"
-  homepage "https://lever.to"
+  homepage "https://lever.diaconou.com"
 
   conflicts_with cask: "lever"
 
